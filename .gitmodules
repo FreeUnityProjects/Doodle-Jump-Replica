@@ -1,0 +1,3 @@
+[submodule "Doodle_Jump/Assets/NorLibUnity"]
+	path = Doodle_Jump/Assets/NorLibUnity
+	url = git@github.com:tacman/NorLibUnity.git

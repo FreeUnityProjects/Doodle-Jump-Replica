@@ -16,6 +16,7 @@ public class Player : MonoBehaviour {
 	public void OnMove(InputValue input)
 	{
 		inputVec = input.Get<Vector2>();
+		movement = inputVec.x * movementSpeed;
 		// moveVec = new Vector3(inputVec.x, 0, inputVec.y);
 	}
 
@@ -26,7 +27,6 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		movement = inputVec.x * movementSpeed;
 	}
 
 	void FixedUpdate()
